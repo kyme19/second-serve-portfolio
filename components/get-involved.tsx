@@ -99,7 +99,7 @@ export function GetInvolved() {
               <CardContent>
                 <p className="text-gray-600 mb-4">
                   Corporate partnerships help us expand our reach and impact. We offer various partnership opportunities
-                  tailored to your organization's goals.
+                  tailored to your organization&apos;s goals.
                 </p>
               </CardContent>
               <CardFooter>
