@@ -6,31 +6,31 @@ const teamMembers = [
   {
     name: "ALBERT CHORE",
     role: "Project Manager",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "/albert.jpeg",
     initials: "AC",
   },
   {
     name: "GUYATU ROBA",
     role: "UI/UX Developer",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "/roba.jpeg",
     initials: "GR",
   },
   {
     name: "ANITA NGUGI",
     role: "Business Analyst",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "/anita.jpeg",
     initials: "AN",
   },
   {
     name: "CALEB LATEITEI",
     role: "Backend Developer",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "/caleb.jpeg",
     initials: "CL",
   },
   {
     name: "CHRISTOPHER ORENTAL",
     role: "Financial Analyst",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "/christopher.jpeg",
     initials: "CO",
   },
 ]

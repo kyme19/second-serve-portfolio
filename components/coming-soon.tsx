@@ -68,7 +68,7 @@ export function ComingSoon() {
                     </div>
                   </div>
                   <div className="bg-white/90 py-3 px-6 rounded-lg">
-                    <p className="text-green-800 font-semibold">Launching Q3 2025</p>
+                    <p className="text-green-800 font-semibold">Launching Q1 2025</p>
                   </div>
                 </div>
               </div>
