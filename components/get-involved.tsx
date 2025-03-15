@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export function GetInvolved() {
-  const [activeTab, setActiveTab] = useState("donate")
+  const [, setActiveTab] = useState("donate")
 
   return (
     <section className="py-16 md:py-24 bg-white" id="get-involved">
@@ -14,7 +14,7 @@ export function GetInvolved() {
         <div className="flex flex-col items-center text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Get Involved</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            There are many ways to support our mission. Choose how you'd like to make a difference.
+            There are many ways to support our mission. Choose how you&apos;d like to make a difference.
           </p>
         </div>
 

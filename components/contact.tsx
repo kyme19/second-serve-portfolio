@@ -10,7 +10,7 @@ export function Contact() {
         <div className="flex flex-col items-center text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Contact Us</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            Have questions? Reach out to us and we'll get back to you as soon as possible.
+            Have questions? Reach out to us and we&apos;ll get back to you as soon as possible.
           </p>
         </div>
 

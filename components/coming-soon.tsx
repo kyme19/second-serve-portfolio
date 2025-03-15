@@ -15,7 +15,7 @@ export function ComingSoon() {
             <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-green-900">Food Donation Platform</h2>
 
             <p className="text-lg text-gray-600">
-              We're building a revolutionary platform that will make food donation easier than ever. Our upcoming app
+              We&apos;re building a revolutionary platform that will make food donation easier than ever. Our upcoming app
               will connect donors directly with recipients, track impact in real-time, and streamline the entire
               donation process.
             </p>
