@@ -12,9 +12,9 @@ import { ThemeProvider } from "next-themes"  // Import directly from next-themes
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Second Serve | Reducing Food Waste, Feeding Communities",
+  title: "Fusion Technologies | Innovation Through Technology",
   description:
-    "Second Serve is a social impact organization dedicated to reducing food waste while helping those in need.",
+    "We are Fusion Technologies, a forward-thinking technology company that combines innovation with expertise to deliver transformative digital solutions",
 }
 
 export default function RootLayout({
