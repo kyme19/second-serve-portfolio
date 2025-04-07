@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Clock, Bell } from "lucide-react"
+import { ExternalLink, Bell } from "lucide-react"
 
 export function ComingSoon() {
   return (
@@ -8,16 +8,15 @@ export function ComingSoon() {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1 space-y-6">
             <div className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
-              <Clock className="mr-1 h-4 w-4" />
-              <span>Coming Soon</span>
+              <Bell className="mr-1 h-4 w-4" />
+              <span>Now Active</span>
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-green-900">Food Donation Platform</h2>
 
             <p className="text-lg text-gray-600">
-              We&apos;re building a revolutionary platform that will make food donation easier than ever. Our upcoming app
-              will connect donors directly with recipients, track impact in real-time, and streamline the entire
-              donation process.
+              Our revolutionary platform is now live! Connect with donors and recipients directly, track impact in real-time,
+              and experience a streamlined donation process. Join us in making a difference today.
             </p>
 
             <ul className="space-y-3">
@@ -48,9 +47,9 @@ export function ComingSoon() {
             </ul>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-green-600 hover:bg-green-700">
-                <Bell className="mr-2 h-4 w-4" />
-                Get Notified
+              <Button className="bg-green-600 hover:bg-green-700" onClick={() => window.open('https://second-serve-platform-jz2v.vercel.app/', '_blank')}>
+                <ExternalLink className="mr-2 h-4 w-4" />
+                Visit Platform
               </Button>
               <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
                 Learn More
@@ -64,11 +63,11 @@ export function ComingSoon() {
                 <div className="text-center space-y-4">
                   <div className="w-24 h-24 bg-white/90 rounded-full flex items-center justify-center mx-auto">
                     <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
-                      Soon
+                      Live
                     </div>
                   </div>
                   <div className="bg-white/90 py-3 px-6 rounded-lg">
-                    <p className="text-green-800 font-semibold">Launching Q1 2025</p>
+                    <p className="text-green-800 font-semibold">Platform Active</p>
                   </div>
                 </div>
               </div>
