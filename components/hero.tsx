@@ -1,7 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-
 const Hero = () => {
   return (
     <section className="relative bg-green-50 py-20 md:py-32">
