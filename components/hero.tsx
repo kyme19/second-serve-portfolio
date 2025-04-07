@@ -6,22 +6,21 @@ const Hero = () => {
   return (
     <section className="relative bg-green-50 py-20 md:py-32">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center text-center space-y-6">
-          <div className="inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800 mb-2">
-            Food Rescue & Redistribution
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="flex flex-col items-start text-left space-y-6">
+            <div className="inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
+              Innovation Through Technology
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-green-900">
+              Fusion Technologies
+            </h1>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-green-900 max-w-3xl">
-            Reducing Food Waste, Feeding Communities
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl">
-            Our mission is to create a sustainable solution where surplus food is rescued and redistributed to those who
-            need it most.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 mt-4">
-            <Button className="bg-green-600 hover:bg-green-700">Donate Food</Button>
-            <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
-              Volunteer With Us
-            </Button>
+          <div className="flex flex-col space-y-6">
+            <p className="text-xl text-gray-600">
+              We are a pioneering technology company dedicated to crafting innovative solutions that transform businesses and empower digital transformation through cutting-edge software development and technological excellence.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+            </div>
           </div>
         </div>
       </div>

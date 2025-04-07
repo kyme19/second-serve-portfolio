@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export function GetInvolved() {
-  const [, setActiveTab] = useState("donate")
+  const [, setActiveTab] = useState("projects")
 
   return (
     <section className="py-16 md:py-24 bg-white" id="get-involved">
@@ -14,75 +14,74 @@ export function GetInvolved() {
         <div className="flex flex-col items-center text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Get Involved</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            There are many ways to support our mission. Choose how you&apos;d like to make a difference.
+            Join us in shaping the future of technology. Explore opportunities to collaborate and innovate together.
           </p>
         </div>
 
-        <Tabs defaultValue="donate" className="w-full max-w-4xl mx-auto" onValueChange={setActiveTab}>
+        <Tabs defaultValue="projects" className="w-full max-w-4xl mx-auto" onValueChange={setActiveTab}>
           <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-8">
-            <TabsTrigger value="donate">Donate Food</TabsTrigger>
-            <TabsTrigger value="request">Request Food</TabsTrigger>
-            <TabsTrigger value="volunteer">Volunteer</TabsTrigger>
-            <TabsTrigger value="partner">Partner With Us</TabsTrigger>
+            <TabsTrigger value="projects">Projects</TabsTrigger>
+            <TabsTrigger value="careers">Careers</TabsTrigger>
+            <TabsTrigger value="research">Research</TabsTrigger>
+            <TabsTrigger value="partner">Partner</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="donate" className="mt-4">
+          <TabsContent value="projects" className="mt-4">
             <Card>
               <CardHeader>
-                <CardTitle>Donate Surplus Food</CardTitle>
+                <CardTitle>Collaborative Projects</CardTitle>
                 <CardDescription>
-                  Restaurants, supermarkets, and individuals can donate surplus food that would otherwise go to waste.
+                  Engage in cutting-edge technology projects and contribute to innovative solutions.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Register your business or yourself as a food donor and schedule regular or one-time pickups for your
-                  surplus food. We accept all types of unexpired food items.
+                  Join our development teams in creating transformative software solutions. Whether you are a startup
+                  or enterprise, we welcome collaboration on projects that push technological boundaries.
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Register as Donor</Button>
+                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Start a Project</Button>
               </CardFooter>
             </Card>
           </TabsContent>
 
-          <TabsContent value="request" className="mt-4">
+          <TabsContent value="careers" className="mt-4">
             <Card>
               <CardHeader>
-                <CardTitle>Request Food Assistance</CardTitle>
+                <CardTitle>Join Our Team</CardTitle>
                 <CardDescription>
-                  If you run a shelter, community center, or organization that serves people in need, apply for food
-                  assistance.
+                  Build your career with a company that values innovation and professional growth.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  We deliver rescued food to organizations that serve vulnerable populations. Fill out our application
-                  to become a food recipient partner.
+                  We are always looking for talented developers, engineers, and tech enthusiasts who are passionate about
+                  creating impactful solutions and driving technological advancement.
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Apply for Assistance</Button>
+                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">View Positions</Button>
               </CardFooter>
             </Card>
           </TabsContent>
 
-          <TabsContent value="volunteer" className="mt-4">
+          <TabsContent value="research" className="mt-4">
             <Card>
               <CardHeader>
-                <CardTitle>Volunteer Your Time</CardTitle>
+                <CardTitle>Research & Innovation</CardTitle>
                 <CardDescription>
-                  Help with food collection, sorting, and distribution to make a direct impact in your community.
+                  Participate in our research initiatives and help shape the future of technology.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  We need volunteers for food pickup, sorting, delivery, and administrative tasks. Choose your role and
-                  availability.
+                  Collaborate with our R&D team on emerging technologies like AI, blockchain, and cloud computing.
+                  We welcome academic partnerships and innovative research proposals.
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Join as Volunteer</Button>
+                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Explore Research</Button>
               </CardFooter>
             </Card>
           </TabsContent>
@@ -90,20 +89,19 @@ export function GetInvolved() {
           <TabsContent value="partner" className="mt-4">
             <Card>
               <CardHeader>
-                <CardTitle>Partner With Us</CardTitle>
+                <CardTitle>Technology Partnership</CardTitle>
                 <CardDescription>
-                  Join as a corporate sponsor or sustainability partner to support our mission financially or through
-                  collaboration.
+                  Form strategic partnerships to accelerate innovation and create mutual value.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  Corporate partnerships help us expand our reach and impact. We offer various partnership opportunities
-                  tailored to your organization&apos;s goals.
+                  Partner with us to leverage our technological expertise and innovation capabilities. We offer various
+                  collaboration models tailored to your organization&apos;s strategic objectives.
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Become a Partner</Button>
+                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Partner With Us</Button>
               </CardFooter>
             </Card>
           </TabsContent>

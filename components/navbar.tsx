@@ -12,7 +12,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b border-green-100 bg-white/80 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-green-800">Second Serve</span>
+          <span className="text-xl font-bold text-green-800">Fusion Technologies</span>
         </Link>
 
         <nav className="hidden md:flex gap-6">

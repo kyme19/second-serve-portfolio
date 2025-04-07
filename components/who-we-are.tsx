@@ -10,8 +10,8 @@ export function WhoWeAre() {
         <div className="flex flex-col items-center text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Who We Are</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
-            We are Second Serve, a social impact organization dedicated to reducing food waste while helping those in
-            need.
+            We are Fusion Technologies, a forward-thinking technology company that combines innovation with expertise to
+            deliver transformative digital solutions.
           </p>
         </div>
 
@@ -19,12 +19,12 @@ export function WhoWeAre() {
           <Card className="border-green-100">
             <CardHeader className="pb-2">
               <Leaf className="h-12 w-12 text-green-600 mb-2" />
-              <CardTitle className="text-xl font-semibold">Sustainability</CardTitle>
+              <CardTitle className="text-xl font-semibold">Innovation</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-gray-600">
-                We promote environmental sustainability by diverting food waste from landfills and reducing greenhouse
-                gas emissions.
+                We drive technological advancement through cutting-edge solutions and forward-thinking approaches to
+                complex challenges.
               </CardDescription>
             </CardContent>
           </Card>
@@ -32,11 +32,11 @@ export function WhoWeAre() {
           <Card className="border-green-100">
             <CardHeader className="pb-2">
               <Heart className="h-12 w-12 text-green-600 mb-2" />
-              <CardTitle className="text-xl font-semibold">Community Support</CardTitle>
+              <CardTitle className="text-xl font-semibold">Excellence</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-gray-600">
-                We deliver nutritious food to shelters, orphanages, and low-income communities to combat hunger.
+                We maintain the highest standards of quality in our development processes and deliverables.
               </CardDescription>
             </CardContent>
           </Card>
@@ -44,11 +44,11 @@ export function WhoWeAre() {
           <Card className="border-green-100">
             <CardHeader className="pb-2">
               <Recycle className="h-12 w-12 text-green-600 mb-2" />
-              <CardTitle className="text-xl font-semibold">Zero Waste</CardTitle>
+              <CardTitle className="text-xl font-semibold">Transformation</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-gray-600">
-                Inedible food is converted into compost, biogas, or animal feed, ensuring nothing goes to waste.
+                We help businesses evolve through digital transformation and innovative technology solutions.
               </CardDescription>
             </CardContent>
           </Card>
