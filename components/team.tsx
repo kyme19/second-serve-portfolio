@@ -40,7 +40,7 @@ export function Team() {
     <section className="py-16 md:py-24 bg-white" id="team">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Our Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Our Team</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             Meet the dedicated professionals working to reduce food waste and support our communities.
           </p>
@@ -48,11 +48,11 @@ export function Team() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="border-green-100 overflow-hidden">
-              <div className="aspect-square bg-green-50 flex items-center justify-center">
+            <Card key={index} className="border-blue-100 overflow-hidden">
+              <div className="aspect-square bg-blue-50 flex items-center justify-center">
                 <Avatar className="h-32 w-32">
                   <AvatarImage src={member.avatar} alt={member.name} />
-                  <AvatarFallback className="text-2xl bg-green-100 text-green-800">{member.initials}</AvatarFallback>
+                  <AvatarFallback className="text-2xl bg-blue-100 text-blue-800">{member.initials}</AvatarFallback>
                 </Avatar>
               </div>
               <CardHeader className="p-4 pb-2">
@@ -61,13 +61,13 @@ export function Team() {
               <CardContent className="p-4 pt-0">
                 <p className="text-sm text-gray-600">{member.role}</p>
                 <div className="flex mt-3 space-x-2">
-                  <a href="#" className="text-gray-500 hover:text-green-600" aria-label={`${member.name}'s LinkedIn`}>
+                  <a href="#" className="text-gray-500 hover:text-blue-600" aria-label={`${member.name}'s LinkedIn`}>
                     <Linkedin className="h-4 w-4" />
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-green-600" aria-label={`${member.name}'s Twitter`}>
+                  <a href="#" className="text-gray-500 hover:text-blue-600" aria-label={`${member.name}'s Twitter`}>
                     <Twitter className="h-4 w-4" />
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-green-600" aria-label={`Email ${member.name}`}>
+                  <a href="#" className="text-gray-500 hover:text-blue-600" aria-label={`Email ${member.name}`}>
                     <Mail className="h-4 w-4" />
                   </a>
                 </div>

@@ -38,10 +38,10 @@ const projects = [
 
 export function Projects() {
   return (
-    <section className="py-16 md:py-24 bg-green-50" id="projects">
+    <section className="py-16 md:py-24 bg-blue-50" id="projects">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Our Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Our Projects</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             Explore some of our successful initiatives that are making a difference in communities and reducing food
             waste.
@@ -52,9 +52,9 @@ export function Projects() {
           {projects.map((project, index) => {
             const IconComponent = project.icon
             return (
-              <Card key={index} className="border-green-100 h-full flex flex-col">
+              <Card key={index} className="border-blue-100 h-full flex flex-col">
                 <CardHeader className="pb-2">
-                  <div className="w-16 h-16 mb-4 mx-auto flex items-center justify-center text-green-700">
+                  <div className="w-16 h-16 mb-4 mx-auto flex items-center justify-center text-blue-700">
                     <IconComponent size={40} />
                   </div>
                   <CardTitle className="text-xl text-center">{project.title}</CardTitle>
@@ -63,14 +63,14 @@ export function Projects() {
                   <CardDescription className="text-gray-600 text-center">{project.description}</CardDescription>
                   <div className="flex flex-wrap gap-2 justify-center mt-4">
                     {project.tags.map((tag, tagIndex) => (
-                      <Badge key={tagIndex} variant="outline" className="bg-green-50 text-green-700 border-green-200">
+                      <Badge key={tagIndex} variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
                         {tag}
                       </Badge>
                     ))}
                   </div>
                 </CardContent>
                 <CardFooter className="pt-2 flex justify-center">
-                  <Button variant="ghost" size="sm" className="text-green-700 hover:text-green-800 hover:bg-green-100">
+                  <Button variant="ghost" size="sm" className="text-blue-700 hover:text-blue-800 hover:bg-blue-100">
                     <ExternalLink className="h-4 w-4 mr-2" />
                     View Project
                   </Button>

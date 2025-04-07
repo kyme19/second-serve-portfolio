@@ -12,7 +12,7 @@ export function GetInvolved() {
     <section className="py-16 md:py-24 bg-white" id="get-involved">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Get Involved</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Get Involved</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             Join us in shaping the future of technology. Explore opportunities to collaborate and innovate together.
           </p>
@@ -41,7 +41,7 @@ export function GetInvolved() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Start a Project</Button>
+                <Button className="bg-blue-600 hover:bg-blue-700 w-full md:w-auto">Start a Project</Button>
               </CardFooter>
             </Card>
           </TabsContent>
@@ -61,7 +61,7 @@ export function GetInvolved() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">View Positions</Button>
+                <Button className="bg-blue-600 hover:bg-blue-700 w-full md:w-auto">View Positions</Button>
               </CardFooter>
             </Card>
           </TabsContent>
@@ -81,7 +81,7 @@ export function GetInvolved() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Explore Research</Button>
+                <Button className="bg-blue-600 hover:bg-blue-700 w-full md:w-auto">Explore Research</Button>
               </CardFooter>
             </Card>
           </TabsContent>
@@ -101,7 +101,7 @@ export function GetInvolved() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="bg-green-600 hover:bg-green-700 w-full md:w-auto">Partner With Us</Button>
+                <Button className="bg-blue-600 hover:bg-blue-700 w-full md:w-auto">Partner With Us</Button>
               </CardFooter>
             </Card>
           </TabsContent>

@@ -3,12 +3,12 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-green-900 text-white py-12">
+    <footer className="bg-blue-900 text-white py-12">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Second Serve</h3>
-            <p className="text-green-100">
+            <p className="text-blue-100">
               Reducing food waste, feeding communities, and promoting sustainability through responsible food
               management.
             </p>
@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-green-800 mt-8 pt-8 text-center text-green-100">
+        <div className="border-t border-blue-800 mt-8 pt-8 text-center text-blue-100">
           <p>© {new Date().getFullYear()} Second Serve. All rights reserved.</p>
         </div>
       </div>

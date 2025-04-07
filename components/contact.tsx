@@ -5,10 +5,10 @@ import { Textarea } from "@/components/ui/textarea"
 
 export function Contact() {
   return (
-    <section className="py-16 md:py-24 bg-green-50" id="contact">
+    <section className="py-16 md:py-24 bg-blue-50" id="contact">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Contact Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Contact Us</h2>
           <p className="text-xl text-gray-600 max-w-3xl">
             Have questions? Reach out to us and we&apos;ll get back to you as soon as possible.
           </p>
@@ -17,25 +17,25 @@ export function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="space-y-8">
             <div className="flex items-start space-x-4">
-              <Mail className="h-6 w-6 text-green-600 mt-1" />
+              <Mail className="h-6 w-6 text-blue-600 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-green-900">Email</h3>
+                <h3 className="text-lg font-semibold text-blue-900">Email</h3>
                 <p className="text-gray-600">email@example.com</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4">
-              <Phone className="h-6 w-6 text-green-600 mt-1" />
+              <Phone className="h-6 w-6 text-blue-600 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-green-900">Phone</h3>
+                <h3 className="text-lg font-semibold text-blue-900">Phone</h3>
                 <p className="text-gray-600">+XXX-XXX-XXXX</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4">
-              <MapPin className="h-6 w-6 text-green-600 mt-1" />
+              <MapPin className="h-6 w-6 text-blue-600 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-green-900">Office</h3>
+                <h3 className="text-lg font-semibold text-blue-900">Office</h3>
                 <p className="text-gray-600">123 Green Street, Eco City, EC 12345</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export function Contact() {
               <Textarea id="message" placeholder="Your message" className="min-h-[120px]" />
             </div>
 
-            <Button className="w-full bg-green-600 hover:bg-green-700">Send Message</Button>
+            <Button className="w-full bg-blue-600 hover:bg-blue-700">Send Message</Button>
           </div>
         </div>
       </div>
