@@ -20,7 +20,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link href="#process" className="text-sm font-medium text-gray-600 hover:text-green-800">
-            How It Works
+            Our Core Values
           </Link>
           <Link href="#get-involved" className="text-sm font-medium text-gray-600 hover:text-green-800">
             Get Involved
@@ -36,11 +36,13 @@ const Navbar = () => {
           </Link>
         </nav>
 
-        <div className="hidden md:flex gap-4">
-          <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
-            Donate
+        <div className="hidden md:flex">
+          <Button 
+            className="bg-green-600 hover:bg-green-700" 
+            onClick={() => window.open('https://second-serve-platform-jz2v.vercel.app/', '_blank')}
+          >
+            Our latest Project
           </Button>
-          <Button className="bg-green-600 hover:bg-green-700">Volunteer</Button>
         </div>
 
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
@@ -63,7 +65,7 @@ const Navbar = () => {
               className="text-sm font-medium text-gray-600 hover:text-green-800 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              How It Works
+              Our Core Values
             </Link>
             <Link
               href="#get-involved"
@@ -95,10 +97,12 @@ const Navbar = () => {
             </Link>
 
             <div className="flex flex-col gap-2 mt-2">
-              <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50 w-full">
-                Donate
+              <Button 
+                className="bg-green-600 hover:bg-green-700 w-full"
+                onClick={() => window.open('https://second-serve-platform-jz2v.vercel.app/', '_blank')}
+              >
+                Visit Platform
               </Button>
-              <Button className="bg-green-600 hover:bg-green-700 w-full">Volunteer</Button>
             </div>
           </div>
         </div>
