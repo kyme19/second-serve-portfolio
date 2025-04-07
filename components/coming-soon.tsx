@@ -1,5 +1,19 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Bell } from "lucide-react"
+
+const VisitPlatformButton = () => {
+  return (
+    <Button 
+      className="bg-green-600 hover:bg-green-700" 
+      onClick={() => window.open('https://second-serve-platform-jz2v.vercel.app/', '_blank')}
+    >
+      <ExternalLink className="mr-2 h-4 w-4" />
+      Visit Platform
+    </Button>
+  )
+}
 
 export function ComingSoon() {
   return (
@@ -47,10 +61,7 @@ export function ComingSoon() {
             </ul>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-green-600 hover:bg-green-700" onClick={() => window.open('https://second-serve-platform-jz2v.vercel.app/', '_blank')}>
-                <ExternalLink className="mr-2 h-4 w-4" />
-                Visit Platform
-              </Button>
+              <VisitPlatformButton />
               <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
                 Learn More
               </Button>
